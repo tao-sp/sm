@@ -658,14 +658,16 @@ position: relative;
     font-weight: bold;
 }
 .wyh{
+    margin-top: 35px;
     width:100%;
     height:611px;
     background: url("../images/wyh.png") center center/cover;
+    margin-bottom: 80px;
 }
 
 /* 专业委员会css */
 .wyh-picScroll-left{margin: auto; width:1200px;  overflow:hidden; position:relative;    }
-.wyh-picScroll-left .hd{ overflow:hidden;  height:30px; background:#f4f4f4; padding:0 10px;  }
+.wyh-picScroll-left .hd{ overflow:hidden;  height:30px; padding:0 10px;margin-top: 87px  }
 .wyh-picScroll-left .hd ul{ overflow:hidden;  margin-top:10px; display: table;margin: auto }
 .wyh-picScroll-left .hd ul li{ float:left;  width:63px; height:4px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer; background: #a3a4a5; }
 .wyh-picScroll-left .hd ul li.on{ background: #2fbbe3}
@@ -678,4 +680,29 @@ position: relative;
 .wyh-picScroll-left .bd ul li .pic{ text-align:center; }
 .wyh-picScroll-left .bd ul li .pic img{ width:390px; height:289px; display:block; }
 .wyh-picScroll-left .bd ul li .pic a:hover img{ border-color:#999;  }
-.wyh-picScroll-left .bd ul li .title{ line-height:24px;   }
+.wyh-picScroll-left .bd ul li .title{ line-height:24px;
+    height:178px;
+    text-align: center}
+.wyh-picScroll-left .bd ul li .title .title1{
+    font-size: 18px;
+    color: #333333;
+    padding-top: 28px;
+}
+.wyh-picScroll-left .bd ul li .title .title2{
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 18px;
+}
+.wyh-picScroll-left .bd ul li .title .title3{
+    font-size: 14px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width:270px;
+    margin:auto;
+}
+.wyh-picScroll-left .bd ul li .title .title3:hover{
+    color: #2fbbe3;
+    text-decoration: underline;
+}
