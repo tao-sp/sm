@@ -1,4 +1,8 @@
 $(function () {
+    $("img").lazyload({
+        threshold :180,
+        effect: "fadeIn", // 载入使用何种效果
+    });
     //首先将#back-to-top隐藏
        $("#backTop").hide();
        //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
@@ -20,3 +24,5 @@ $(function () {
            });
        });
 })
+
+

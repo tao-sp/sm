@@ -6,7 +6,15 @@
     <link rel="stylesheet" href="../assets/css/sm.css">
     <script src="../assets/js/jquery-1.10.1.min.js"></script>
     <script src="../assets/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="../assets/js/jquery.lazyload.min.js?v=1.9.1"></script>
     <script src="../assets/js/sm.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../assets/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=vcowyo1iI8zNGh5p6Nnu4XjpF1ImSMSN"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css"/>
+
 </head>
 <body>
   <!--logo、导航开始-->
@@ -84,7 +92,7 @@
                <div class="bd">
                    <div class="clearfix">
                        <div class="sm-news-list-left">
-                           <img src="../assets/images/news.png"/>
+                           <img class="lazy" data-original="../assets/images/news.png"/>
                            <div class="list-left-title">
                                重磅！2017年交互界面（UI）设计职业技能设计职业技能
                            </div>
@@ -140,7 +148,7 @@
                    </div>
                    <div class="clearfix">
                        <div class="sm-news-list-left">
-                           <img src="../assets/images/news.png"/>
+                           <img class="lazy" data-original="../assets/images/news.png"/>
                            <div class="list-left-title">
                                重磅！2017年交互界面（UI）设计职业技能设计职业技能
                            </div>
@@ -196,7 +204,7 @@
                    </div>
                    <div class="clearfix">
                        <div class="sm-news-list-left">
-                           <img src="../assets/images/news.png"/>
+                           <img class="lazy" data-original="../assets/images/news.png"/>
                            <div class="list-left-title">
                                重磅！2017年交互界面（UI）设计职业技能设计职业技能
                            </div>
@@ -274,7 +282,7 @@
   <div class="sm-sshd container_1200 clearfix">
       <div class="sm-ss">
           <div class="sm-sshd-title">
-               <img src="../assets/images/ss.png"/>
+               <img class="lazy" data-original="../assets/images/ss.png"/>
               赛事公告
               <a>MORE ></a>
           </div>
@@ -309,7 +317,7 @@
       </div>
       <div class="sm-ss">
           <div class="sm-sshd-title">
-              <img src="../assets/images/hd.png"/>
+              <img class="lazy" data-original="../assets/images/hd.png"/>
               活动报名
               <a>MORE ></a>
           </div>
@@ -393,7 +401,7 @@
       </div>
       <ul class="sm-product-list clearfix">
           <li>
-              <img src="../assets/images/product1.png">
+              <img class="lazy" data-original="../assets/images/product1.png">
               <div class="sm-product-list-hide">
                   <div class="sm-product-list-border">
                       A SKILL MAKES THE FUTURE<span>一门技能成就未来</span>
@@ -412,7 +420,7 @@
               </div>
           </li>
           <li>
-              <img src="../assets/images/product2.png">
+              <img class="lazy" data-original="../assets/images/product2.png">
               <div class="sm-product-list-hide">
                   <div class="sm-product-list-border">
                       A SKILL MAKES THE FUTURE<span>一门技能成就未来</span>
@@ -431,7 +439,7 @@
               </div>
           </li>
           <li>
-              <img src="../assets/images/product3.png">
+              <img class="lazy" data-original="../assets/images/product3.png">
               <div class="sm-product-list-hide">
                   <div class="sm-product-list-border">
                       A SKILL MAKES THE FUTURE<span>一门技能成就未来</span>
@@ -450,7 +458,7 @@
               </div>
           </li>
           <li>
-              <img src="../assets/images/product4.png">
+              <img class="lazy" data-original="../assets/images/product4.png">
               <div class="sm-product-list-hide">
                   <div class="sm-product-list-border">
                       A SKILL MAKES THE FUTURE<span>一门技能成就未来</span>
@@ -484,7 +492,9 @@
           <div class="bd">
               <ul class="sm-product-list clearfix">
                   <li>
-                      <img src="../assets/images/qyfc1.png">
+                      <div class="sm-product-img">
+                      <img class="lazy" data-original="../assets/images/qyfc1.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               职业技能
@@ -498,7 +508,9 @@
                       </div>
                   </li>
                   <li>
-                      <img src="../assets/images/qyfc2.png">
+                      <div class="sm-product-img">
+                          <img class="lazy" data-original="../assets/images/qyfc2.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               企业内训
@@ -512,7 +524,9 @@
                       </div>
                   </li>
                   <li>
-                      <img src="../assets/images/qyfc3.png">
+                      <div class="sm-product-img">
+                          <img class="lazy" data-original="../assets/images/qyfc3.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               学历培训
@@ -526,7 +540,9 @@
                       </div>
                   </li>
                   <li>
-                      <img src="../assets/images/qyfc4.png">
+                      <div class="sm-product-img">
+                          <img class="lazy" data-original="../assets/images/qyfc4.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               出国游学
@@ -542,7 +558,9 @@
               </ul>
               <ul class="sm-product-list clearfix">
                   <li>
-                      <img src="../assets/images/qyfc1.png">
+                      <div class="sm-product-img">
+                          <img class="lazy" data-original="../assets/images/qyfc1.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               职业技能
@@ -556,7 +574,9 @@
                       </div>
                   </li>
                   <li>
-                      <img src="../assets/images/qyfc2.png">
+                      <div class="sm-product-img">
+                          <img class="lazy" data-original="../assets/images/qyfc2.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               企业内训
@@ -570,7 +590,9 @@
                       </div>
                   </li>
                   <li>
-                      <img src="../assets/images/qyfc3.png">
+                      <div class="sm-product-img">
+                          <img class="lazy" data-original="../assets/images/qyfc3.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               学历培训
@@ -584,7 +606,9 @@
                       </div>
                   </li>
                   <li>
-                      <img src="../assets/images/qyfc4.png">
+                      <div class="sm-product-img">
+                          <img class="lazy" data-original="../assets/images/qyfc4.png">
+                      </div>
                       <div class="product-list-content">
                           <h4>
                               出国游学
@@ -614,7 +638,7 @@
           <div class="bd">
               <ul class="picList">
                   <li>
-                      <div class="pic"><a  ><img src="../assets/images/wyh1.png" /></a></div>
+                      <div class="pic"><a  ><img class="lazy" data-original="../assets/images/wyh1.png" /></a></div>
                       <div class="title">
                           <div class="title1">商业摄影</div>
                           <div class="title2">Commercial Photography</div>
@@ -623,7 +647,7 @@
                       </div>
                   </li>
                   <li>
-                      <div class="pic"><a ><img src="../assets/images/wyh2.png" /></a></div>
+                      <div class="pic"><a ><img class="lazy" data-original="../assets/images/wyh2.png" /></a></div>
                       <div class="title">
                           <div class="title1">包装文化</div>
                           <div class="title2">Commercial Photography</div>
@@ -632,7 +656,7 @@
                       </div>
                   </li>
                   <li>
-                      <div class="pic"><a ><img src="../assets/images/wyh3.png" /></a></div>
+                      <div class="pic"><a ><img class="lazy" data-original="../assets/images/wyh3.png" /></a></div>
                       <div class="title">
                           <div class="title1">环艺设计</div>
                           <div class="title2">Commercial Photography</div>
@@ -657,8 +681,336 @@
   <div class="sm-title">
       平台资源
   </div>
+  <ul class="sm-ptzy container_1200 clearfix">
+      <li>
+          <div class="sm-ptzy-title">
+              求职 <br>信息
+          </div>
+          <ul>
+              <li>
+                  <a>
+                  <div class="employ-name">
+                      刘琴 <span>互动体验设计师</span>
+                  </div>
+                  <div class="employ-detail">
+                      意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                  </div>
+                  </a>
+              </li>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+          </ul>
+          <a class="sm-ptzy-btn">查看更多 <span>> </span></a>
+
+      </li>
+      <li>
+          <div class="sm-ptzy-title">
+              招聘 <br>信息
+          </div>
+          <ul>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+          </ul>
+          <a class="sm-ptzy-btn">查看更多 <span>> </span></a>
+
+      </li>
+      <li>
+          <div class="sm-ptzy-title">
+              专业  <br>讲座
+          </div>
+          <ul>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+              <li>
+                  <a>
+                      <div class="employ-name">
+                          刘琴 <span>互动体验设计师</span>
+                      </div>
+                      <div class="employ-detail">
+                          意向地点：北京市  <span>  意向薪资：2-3万/月</span>
+                      </div>
+                  </a>
+              </li>
+          </ul>
+          <a class="sm-ptzy-btn">查看更多 <span>> </span></a>
+
+      </li>
+  </ul>
   <!--平台资源结束-->
-  <br><br><br><br><br><br><br><br><br>
+
+  <!--发展战略开始-->
+  <div class="sm-fzzl">
+      <div class="clearfix container_1200">
+          <div class="sm-fzzl-left">
+              <div class="sm-fzzl-line"></div>
+              <div class="sm-fzzl-title-cn">长远发展战略服务</div>
+              <div class="sm-fzzl-title-en">LONG-TERM DEVELOPMENT STRATEGY SERVICE</div>
+              <a class="sm-fzzl-btn">查看更多<span> ></span></a>
+          </div>
+          <div class="sm-fzzl-right">
+
+              <div id="multipleColumn" class="multipleColumn">
+                  <div class="bd">
+                      <div class="picList">
+                          <li>
+                              <div class="pic">
+                              <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                 <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                          <li>
+                              <div class="pic">
+                                  <img class="lazy" data-original="../assets/images/product1.png">
+                              </div>
+                              <div class="title">
+                                  张仪
+                                  <span>UI高级设计师</span>
+                              </div>
+                          </li>
+                      </div>
+                  </div>
+                  <div class="hd">
+                      <ul></ul>
+                  </div>
+              </div>
+
+              <script type="text/javascript">
+                  /* 使用js分组，每6个li放到一个ul里面 */
+                  jQuery("#multipleColumn .bd li").each(function(i){ jQuery("#multipleColumn .bd li").slice(i*6,i*6+6).wrapAll("<ul></ul>");});
+
+                  /* 调用SuperSlide，每次滚动一个ul，相当于每次滚动6个li */
+                  jQuery("#multipleColumn").slide({titCell:".hd ul",mainCell:".bd .picList",autoPage:true,effect:"leftLoop",autoPlay:true});
+              </script>
+
+          </div>
+      </div>
+  </div>
+  <!--发展战略结束-->
+<!--友情链接开始-->
+  <div class="sm-yqlj container_1200">
+      <div class="sm-product-title">
+          友情链接
+          <a class="sm-product-more">MORE ></a>
+      </div>
+      <ul class="sm-yqlj-lists clearfix">
+          <li>
+              <img class="lazy" data-original="../assets/images/yqlj7.png">
+          </li>
+          <li>
+           <img class="lazy" data-original="../assets/images/yqlj1.png">
+          </li>
+          <li>
+              <img class="lazy" data-original="../assets/images/yqlj4.png">
+          </li>
+          <li>
+              <img class="lazy" data-original="../assets/images/yqlj3.png">
+          </li>
+          <li>
+              <img class="lazy" data-original="../assets/images/yqlj1.png">
+          </li>
+          <li>
+              <img class="lazy" data-original="../assets/images/yqlj5.png">
+          </li>
+          <li>
+              <img class="lazy" data-original="../assets/images/yqlj2.png">
+          </li>
+
+
+          <li>
+              <img class="lazy" data-original="../assets/images/yqlj6.png">
+          </li>
+      </ul>
+  </div>
+<!--友情链接结束-->
+<!--联系我们开始-->
+  <div class="space">
+
+  </div>
+  <div class="sm-lxwm">
+       <div class="sm-lxwm-content container_1200 clearfix">
+           <div class="sm-lxwm-map" id="sm-map"></div>
+           <div class="sm-lxwm-detail">
+               <div class="sm-lxwm-title">
+                   联系我们<span>Contact</span>
+               </div>
+               <div class="sm-lxwm-name">
+                   深圳市商业美术设计促进会
+                   <span>地址：深圳市龙岗区龙岗大道湖广通创业大厦四楼</span>
+                   <span>邮编：517000</span>
+                   <span>电话：0755-83361978</span>
+                   <span>手机：18088886666 / 18088886666 </span>
+                   <span>传真：0755-88886666</span>
+                   <span>邮箱：Windir@zppx.com</span>
+               </div>
+               <div class="sm-lxwm-line"></div>
+           </div>
+
+
+       </div>
+  </div>
+<!--联系我们开始-->
+  <!--底部开始-->
+  <div class="sm-footer">
+      Copyright © 2000 - 2018 <a target="_blank" href="http://www.szcadpa.com">http://www.szcadpa.com.</a>All Rights Res
+  </div>
+  <!--底部结束-->
    <!--右侧悬浮栏开始-->
   <div class="right-fixed">
       <ul>
@@ -687,5 +1039,44 @@
   </div>
 
    <!--右侧悬浮栏结束-->
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("sm-map");
+    var poi = new BMap.Point(114.252481, 22.716557);
+    map.centerAndZoom(poi, 22);
+    map.enableScrollWheelZoom();
+
+    var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+        '地址：深圳市龙岗区龙岗大道3020号湖广通创业大厦（吉祥地铁站B出口）<br/>电话：0755-83361978<br/> ' +
+        '</div>';
+
+    //创建检索信息窗口对象
+    var searchInfoWindow = null;
+    searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+        title: "深圳市商业美术设计促进会",      //标题
+        width: 290,             //宽度
+        height: 80,              //高度
+        panel: "panel",         //检索结果面板
+        enableAutoPan: true,     //自动平移
+        enableMessage: false,//是否显示发送到手机按钮
+        enableSendToPhone: false,//是否启用发送到手机
+        searchTypes: [
+            BMAPLIB_TAB_SEARCH,   //周边检索
+            BMAPLIB_TAB_TO_HERE,  //到这里去
+            BMAPLIB_TAB_FROM_HERE //从这里出发
+        ]
+    });
+    var marker = new BMap.Marker(poi); //创建marker对象
+    marker.enableDragging(); //marker可拖拽
+    marker.addEventListener("click", function (e) {
+        searchInfoWindow.open(marker);
+    })
+    map.addOverlay(marker); //在地图中添加marker
+    var top_right_navigation = new BMap.NavigationControl({
+        anchor: BMAP_ANCHOR_TOP_LEFT,
+        type: BMAP_NAVIGATION_CONTROL_SMALL
+    });
+    map.addControl(top_right_navigation);
+</script>
 </body>
 </html>
