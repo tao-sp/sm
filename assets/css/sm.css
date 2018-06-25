@@ -202,8 +202,8 @@ a{
 }
 .right-fixed ul li .hide > img{
     display: block;
-    width: 212px;
-    margin: auto;
+    width: 200px;
+    margin:12px auto 0;
 }
 .right-fixed ul li .hide .title{
     padding-left: 12px;
@@ -2376,9 +2376,6 @@ background: #e3e3e3;
     width: 1200px;
     height: 408px;
     margin: 40px auto 0;
-    background: url("../images/lxwm/picture2.png");
-    background-size: cover;
-    background-position: center;
 }
 /*8-联系我们结束----------*/
 
