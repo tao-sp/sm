@@ -46,6 +46,14 @@ $(function () {
             $(this).addClass('on').siblings().removeClass('on');
         });
     })();
+
+    /*右侧悬浮*/
+    (function() {
+        $(".right-fixed ul li").hover(function () {
+            $(this).children(".hide").stop().fadeToggle();
+        })
+    })();
+
 })
 
 

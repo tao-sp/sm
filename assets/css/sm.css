@@ -187,27 +187,14 @@ a{
     overflow: hidden;
     background: #ffffff;
     position: absolute;
-    left: -0px;
+    left: -232px;
     top: 0px;
     width: 222px;
-    height: 0;
     border: none;
     border-radius: 5px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-.right-fixed ul li:hover > .hide{
-    border: 1px solid #999999;
-    left: -238px;
     height: 232px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+    display: none;
+    border: 1px solid #999999;
 }
 .right-fixed ul li .hide > img{
     display: block;
