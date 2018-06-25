@@ -139,8 +139,7 @@ a{
 .right-fixed{
     width:72px;
     position: fixed;
-    margin-top: -140px;
-    top: 50%;
+    bottom: 60px;
     right:20px;
 }
 .right-fixed ul li{
