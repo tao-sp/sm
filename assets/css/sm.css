@@ -131,7 +131,73 @@ a{
    font-size: 19px;
     display: block;
 }
-@media screen and (max-width: 1366px){
+/*右侧悬浮第一版*/
+.right-fixed{
+    width:45px;
+    position: fixed;
+    bottom: 60px;
+    right:10px;
+}
+.right-fixed ul li{
+    padding-top: 3px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-top: 3px;
+    width: 45px;
+    height:42px;
+    background: #2fbbe3;
+}
+.right-fixed ul li a{
+    display: block;
+}
+.right-fixed ul li:hover{
+    background: #49d3fb;
+}
+#backTop{
+    cursor: pointer;
+    background:#dddddd url("../images/top.png") no-repeat;
+    background-size: 45px 45px;
+}
+#backTop:hover{
+    background-color: #49d3fb;
+}
+.right-fixed ul li .hide{
+    overflow: hidden;
+    background: #ffffff;
+    position: absolute;
+    left: -232px;
+    top: 0px;
+    width: 222px;
+    border: none;
+    border-radius: 5px;
+    height: 232px;
+    display: none;
+    border: 1px solid #999999;
+}
+.right-fixed ul li .hide > img{
+    display: block;
+    width: 200px;
+    margin:12px auto 0;
+}
+.right-fixed ul li .hide .title{
+    padding-left: 12px;
+    text-align: left;
+    width: 210px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #666666;
+    border-bottom: 1px solid #999999;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #e4e4e4;
+}
+
+/*右侧悬浮第一版*/
+/*@media screen and (max-width: 1366px){
     .right-fixed{
         right:0px !important;
     }
@@ -229,7 +295,7 @@ a{
 }
 #backTop:hover{
     background-color: #49d3fb;
-}
+}*/
 
 /* banner css */
 .sm-banner{ width:100%;  position:relative; overflow: hidden }
