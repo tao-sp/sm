@@ -2844,9 +2844,31 @@ background: #e3e3e3;
     box-sizing: border-box;
     padding: 27px 25px;
 }
-.s_11second_d2>div>img{
+.s_11second_d2>div>div{
     float: left;
+    width: 59px;
+    text-align: center;
     margin-right: 11px;
+}
+.s_11second_d2>div>div>p:nth-of-type(1){
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #a0a0a0;
+    background-color: #efefef;
+}
+.s_11second_d2>div>div>p:nth-of-type(2){
+    height: 24px;
+    line-height: 24px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    background-color: #b3b3b3;
 }
 .s_11second_d2>div>p{
     color: #666;
@@ -2859,6 +2881,7 @@ background: #e3e3e3;
     margin-bottom: 12px;
 }
 /*11-会员风采结束----------*/
+
 
 
 /*12-会员企业开始*/
@@ -3935,9 +3958,31 @@ background: #e3e3e3;
     box-sizing: border-box;
     padding: 27px 15px;
 }
-.s_18fourth_d2>img{
+.s_18fourth_d2>div{
     float: left;
+    width: 59px;
+    text-align: center;
     margin-right: 11px;
+}
+.s_18fourth_d2>div>p:nth-of-type(1){
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #a0a0a0;
+    background-color: #efefef;
+}
+.s_18fourth_d2>div>p:nth-of-type(2){
+    height: 24px;
+    line-height: 24px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    background-color: #b3b3b3;
 }
 .s_18fourth_d2>p:nth-of-type(1){
     font-size: 18px;
